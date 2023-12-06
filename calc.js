@@ -18,7 +18,7 @@ function updateDisplay(input){
   }
   else{
     if(input=="DEL"){
-      result.innerText = currentDisplay.substring(0, currentDisplay.length-1);
+      result.innerText = currentDisplay.slice(0, -1);
       if(result.innerText ==""){
         result.innerText = "0";
       }

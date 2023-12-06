@@ -6,6 +6,15 @@
   
 }
 
+.title{
+  font-size: 40px;
+  margin-top: 12%;
+  margin-left: 13%;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  font-family: 'Permanent Marker', cursive;
+}
+
 body{
   background: url(/Calculator/Math_BG.jpg);
   background-size: cover;
