@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="shortcut icon" href="/Calculator/calculator-solid (1).svg" type="image/x-icon">
+  <link rel="stylesheet" href="/Calculator/calc.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.1.0/math.min.js"></script>
+</head>
+<body>
+  <div class="container">  <!-- Calculator Container-->
+    <div class="result">  
+      <p id="result">0</p> <!-- Result Area -->
+    </div>
+
+    <div class="buttons">  <!-- Buttons -->
+        <div class="row">  <!-- Row 1 -->
+          <button>C</button>
+          <button>DEL</button>
+          <button>+</button>
+          <button>%</button>
+        </div>
+
+        <div class="row">  <!-- Row 2 -->
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>/</button>
+        </div>
+
+        <div class="row">  <!-- Row 3 -->
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>*</button>
+        </div>
+
+        <div class="row">  <!-- Row 4 -->  
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>-</button>
+        </div>
+
+        <div class="row">  <!-- Row 5 -->  
+          <button id="dot">.</button>
+          <button>0</button>
+          <button id="equal">=</button>
+        </div>
+
+    </div>
+  </div>
+  <script src="/Calculator/calc.js"></script>
+</body>
+</html>
